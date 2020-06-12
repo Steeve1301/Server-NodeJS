@@ -1,4 +1,4 @@
-let io= require('socket.io')(process.env.PORT || 52300);
+let io= require('socket.io')(process.env.PORT || 80);
 
 //Custom Classes
 let Player= require('./Classes/Player.js');
